@@ -1,0 +1,102 @@
+.listCrops{
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr ;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+}
+
+.ceroCrops{
+    text-align: center;
+    position: absolute;
+    font-size: xx-large;
+    top: 40%;
+    right: 0px;
+    left: 0px
+}
+
+.listCrops-container {
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.listCrops-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.crop {
+    display: flex;
+    height: 140px;
+    width: 50%;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -5px 1px 8px gray;
+    background-color: rgb(155, 173, 155)
+}   
+
+
+.crop-detail h3, .crop-detail p  {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.crop-detail {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.crop-detail p {
+    font-size: larger;
+}
+
+.addCrop {
+    display: grid;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+}
+
+.btnAddCrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+    background-color: rgba(42, 78, 5, 0.9)
+}
+
+@media screen and (min-width:1024px) {
+
+    .listCrops-container {
+        grid-template: 1fr/ 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .crop {
+        display: flex;
+        height: 200px;
+        width: 50%;
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: -5px 1px 8px gray;
+        background-color: rgb(155, 173, 155)
+    }   
+
+    
+       
+}
