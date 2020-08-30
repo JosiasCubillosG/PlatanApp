@@ -12,7 +12,8 @@
     font-size: xx-large;
     top: 40%;
     right: 0px;
-    left: 0px
+    left: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .listCrops-container {
@@ -27,6 +28,7 @@
 .listCrops-container a {
     text-decoration: none;
     color: black;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .crop {
@@ -76,7 +78,8 @@
     font-weight: bold;
     font-size: x-large;
     border: none;
-    background-color: rgba(42, 78, 5, 0.9)
+    background-color: rgba(42, 78, 5, 0.9);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media screen and (min-width:1024px) {

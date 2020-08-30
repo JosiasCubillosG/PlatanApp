@@ -252,6 +252,7 @@ class Income extends React.Component {
                             filename="Reporte Ingresos"
                             sheet="Pagina 1"
                             buttonText="Exportar a excel"
+                            className="excelReport"
                         />
                         <table className="incomeTable" id="tablaIngresos">
                             <tr>

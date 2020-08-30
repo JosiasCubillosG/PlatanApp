@@ -6,10 +6,12 @@
 
 .nameDisease {
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .symptomatology, .treatment {
     padding: 10px 50px 10px 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .symptomatology p , .treatment p{ 
@@ -26,17 +28,30 @@
     height: 50px;
     font-weight: bold;
     font-size: x-large;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: rgba(66, 99, 66, 0.74)
 }
 
 .carouselDisease .carousel {
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     /* Add this */
+}
 
+.carousel {
+    border-radius: 10px;
 }
 
 .carouselDisease div {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (min-width:1024px){
+    .carouselDisease .carousel {
+        height: 550px;
+        overflow: hidden;
+        /* Add this */
+
+    }
 }

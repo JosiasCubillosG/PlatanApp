@@ -1,6 +1,6 @@
 {
-  "name": "Quindiplatanos",
-  "short_name":"Quindiplatanos",
+  "name": "PlantanApp",
+  "short_name":"PlatanApp",
   "icons": [
       {
           "src":"https://quindiplatanos.s3.amazonaws.com/5ecc3fc467ce857162d88307-logo192x192.png",

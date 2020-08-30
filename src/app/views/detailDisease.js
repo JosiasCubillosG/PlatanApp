@@ -69,16 +69,13 @@ class DetailDisease extends React.Component {
                         interval={5000}
                     >
                         <div>
+                            <img src={this.state.disease.imagesURL[0]}/>
+                        </div>
+                        <div>
                             <img src={this.state.disease.imagesURL[1]}/>
                         </div>
                         <div>
                             <img src={this.state.disease.imagesURL[2]}/>
-                        </div>
-                        <div>
-                            <img src={this.state.disease.imagesURL[3]}/>
-                        </div>
-                        <div>
-                            <img src={this.state.disease.imagesURL[4]}/>
                         </div>
                     </Carousel>
                 </div>

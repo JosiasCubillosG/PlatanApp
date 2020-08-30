@@ -112,6 +112,12 @@ class Outlay extends React.Component {
                 })
                 .then(res=>{
                     if(res.data.status === 'success') {
+                        this.setState({
+                            value: '',
+                            description: '',
+                            id: '',
+                            cargando: false
+                        })
                         toast.success('GASTO CREADO CON EXITO',{position: toast.POSITION.TOP_CENTER})
                         this.addOutlays()
                     }else{
@@ -242,6 +248,7 @@ class Outlay extends React.Component {
                             filename="Reporte Egresos"
                             sheet="Pagina 1"
                             buttonText="Exportar a excel"
+                            className="excelReport"
                         />
                         <table className="incomeTable" id="tablaEgresos">
                             <tr>
