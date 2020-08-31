@@ -118,6 +118,8 @@ class DetailCrop extends React.Component {
                 <div className="detailCrop">
                     <h2>{lot.name}</h2>
                     <p>Numero de plantas: {lot.plants}</p>
+                    <p>Variedad del platano: {lot.variety}</p>
+                    <p>Tamaño del cultivo: {lot.area}</p>
                     <p>{moment(lot.createdDate).format('LLLL')}</p>
                 </div>
                 <div className="optionsCrop">

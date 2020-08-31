@@ -14,6 +14,14 @@ const LotScheme = new Schema({
 		required: 'Please add the number Plants',
 		type: Number
 	},
+	variety: {
+		required: 'Please add the variety of Plants',
+		type: String
+	},
+	area: {
+		required: 'Please add the area of Plants',
+		type: Number
+	},
 	userId: {
 		type: String
 	},

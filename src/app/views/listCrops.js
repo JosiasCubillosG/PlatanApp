@@ -74,6 +74,8 @@ class ListCrops extends React.Component {
                                         <div className="crop-detail">
                                             <h3>{lot.name}</h3>
                                             <p>{lot.plants} plantas</p>
+                                            <p>{lot.variety}</p>
+                                            <p>{lot.area} M²</p>
                                             <p>{moment(lot.createdDate).format('DD/MM/YYYY')}</p>
                                         </div>
                                     </Link>

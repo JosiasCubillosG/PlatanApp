@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componentes Snapshot Comprobar componente funcional del header 1`] = `
+<div
+  className="header"
+>
+  <h1
+    className="header-title"
+  >
+    PlatanApp
+  </h1>
+</div>
+`;
